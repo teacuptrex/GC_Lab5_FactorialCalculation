@@ -3,7 +3,7 @@ package gcLab5;
 import java.util.*;
 
 public class FactorialCalculation {
-
+	
 	public static void main(String[] args) {
 		//User inputInt from 1 to 10
 		//Continue while
@@ -18,9 +18,9 @@ public class FactorialCalculation {
 		
 		while (cont.equals("y")) {
 		factorInt = 1;
-		System.out.println("Enter an integer between 1 and 25: ");
+		System.out.println("Enter an integer between 1 and 20: ");
 		inputInt = scn.nextInt();
-		if (inputInt < 26 && inputInt >= 1) {
+		if (inputInt < 21 && inputInt >= 1) {
 			for (int i = 1; i <= inputInt; i++) {
 				factorInt *= i;
 			}
